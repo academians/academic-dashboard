@@ -2,6 +2,11 @@ language: ruby
 rvm:
   - "1.9.2"
   
+notifications:
+  slack:
+    rooms:
+      - academia:iaIDx6BO4XEXlAX400monXuU#general
+      - academia:iaIDx6BO4XEXlAX400monXuU#development
 #script:
  # - bundle exec rake spec
 
